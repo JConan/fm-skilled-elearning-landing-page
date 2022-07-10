@@ -1,5 +1,5 @@
-import "./style.css"
+import "./style.scss";
 
 export const HeroImage = () => {
-    return <div className="hero-image"></div>
-}
+  return <div className="hero-image"></div>;
+};

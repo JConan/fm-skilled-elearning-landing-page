@@ -14,6 +14,7 @@ export const parameters = {
           width: '1440px',
           height: '600px',
         },
+        type: "desktop",
       },
       tablet: {
         name: 'Tablet',
@@ -21,6 +22,7 @@ export const parameters = {
           width: '768px',
           height: '600px',
         },
+        type: "tablet",
       },
       mobile: {
         name: 'Mobile',
@@ -28,6 +30,7 @@ export const parameters = {
           width: '375px',
           height: '600px',
         },
+        type: "mobile",
       },
     },
   },

@@ -1,0 +1,22 @@
+@import "../../sass/main.scss";
+
+.hero-image{ 
+    width: 327px;
+    height: 301px;
+    background: darkred url("../../../public/images/image-hero-mobile.png"); 
+
+
+    @include responsive-when-matching('tablet'){
+        width: 296px;
+        height: 548px;
+        background: darkgreen url("../../../public/images/image-hero-tablet.png"); 
+    }
+
+    @include responsive-when-matching('desktop'){
+        width: 656px;
+        height: 792px;
+        background: deepskyblue url("../../../public/images/image-hero-desktop.png"); 
+    }
+
+}
+
